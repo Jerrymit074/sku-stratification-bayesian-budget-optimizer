@@ -1,0 +1,6 @@
+@echo off
+cd /d "%~dp0"
+echo Starting Smart Product Grouping ^& Ad Budget Planner...
+echo Opening http://localhost:8501 in your browser shortly...
+".\.venv\Scripts\streamlit.exe" run app.py --server.port 8501
+pause

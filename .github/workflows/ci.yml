@@ -1,0 +1,24 @@
+name: CI & Privacy Audit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-and-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install core dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scipy scikit-learn openpyxl streamlit plotly pytest
+      - name: Run unit and optimization tests
+        run: pytest -v
+      - name: Run privacy and clean-architecture audit
+        run: python -m scripts.check_privacy

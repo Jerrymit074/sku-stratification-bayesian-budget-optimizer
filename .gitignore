@@ -22,6 +22,7 @@ data/artifacts/daily_ad_scores.csv
 data/artifacts/daily_anomalies.csv
 data/artifacts/budget_allocation_baseline.csv
 data/artifacts/sku_drilldown_history.csv
+data/artifacts/daily_trend_summary.csv
 
 # OS & IDE
 .DS_Store
