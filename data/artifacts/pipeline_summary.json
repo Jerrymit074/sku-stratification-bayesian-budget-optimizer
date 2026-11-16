@@ -1,0 +1,62 @@
+{
+  "latest_date": "2026-10-31",
+  "margin_cap_default": 0.85,
+  "preprocessing": {
+    "total_skus": 2511,
+    "negative_sales_clipped": 2,
+    "negative_margin_count": 7,
+    "capped_margin_count": 75,
+    "capped_margin_pct": 2.986857825567503,
+    "capped_at_60_pct": 56.43170051772203,
+    "margin_median": 0.6291,
+    "margin_p95": 0.83105
+  },
+  "clustering": {
+    "kmeans_silhouette_k8": 0.2356,
+    "final_role_silhouette": 0.1999,
+    "silhouette_curve": {
+      "4": 0.2722,
+      "5": 0.2624,
+      "6": 0.2485,
+      "7": 0.242,
+      "8": 0.2356,
+      "9": 0.226,
+      "10": 0.2186
+    },
+    "pca_explained_variance": [
+      0.4267,
+      0.2326
+    ],
+    "rule_confirmed_pct": 23.02,
+    "role_counts": {
+      "P1": 308,
+      "P2": 196,
+      "P3": 402,
+      "P4": 310,
+      "P5": 343,
+      "P6": 532,
+      "P7": 270,
+      "P8": 150
+    }
+  },
+  "layer1_avg_spearman_rho": 0.7835,
+  "layer2_avg_spearman_rho": 0.916,
+  "optimization": {
+    "solver_success": true,
+    "total_budget": 45000.0,
+    "allocated_budget": 45000.05,
+    "baseline_roas": 17.824,
+    "optimized_roas": 20.235,
+    "roas_uplift_pct": 13.53,
+    "utility_uplift_pct": 16.08,
+    "legacy_roas": 18.091,
+    "legacy_total_revenue": 814082.18,
+    "legacy_p7_spend_pct": 4.12,
+    "legacy_p125_spend_pct": 32.15,
+    "opt_p7_spend_pct": 2.0,
+    "opt_p125_spend_pct": 50.71,
+    "roas_vs_legacy_uplift_pct": 11.85
+  },
+  "anomaly_count": 328,
+  "runtime_seconds": 213.29
+}

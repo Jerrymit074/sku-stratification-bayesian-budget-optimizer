@@ -1,0 +1,9 @@
+category,name_zh,name_en,policy_zh,policy_en,min_pct,max_pct,opt_budget,opt_share_pct,baseline_budget,baseline_share_pct,avg_ad_score,sku_stream_count
+P1,新品孵化型,New Product Incubation,保护性预算,Protected Sandbox,5.0,15.0,4820.44,10.71,3618.14,8.04,42.94,553
+P2,爆款引流型,Hero Traffic Driver,扩张性预算,Aggressive Growth,15.0,30.0,6750.02,15.0,6676.44,14.84,35.92,352
+P3,销量驱动型,Volume Scale Driver,稳定性预算,Core Stability,10.0,20.0,4500.06,10.0,9390.42,20.87,37.36,723
+P4,销售额驱动型,Revenue Driver,回报性预算,Revenue Return,10.0,20.0,7779.63,17.29,6868.12,15.26,32.14,558
+P5,高利润收割型,High-Margin Harvester,效率性预算,Profit Efficiency,10.0,25.0,11249.97,25.0,6697.7,14.88,26.9,616
+P6,份额防守型,Share Defender,防御性预算,Share Defense,5.0,15.0,6750.04,15.0,8254.09,18.34,46.95,957
+P7,清仓退出型,Clearance Exit,收缩性预算,Controlled Taper,2.0,8.0,899.78,2.0,2433.56,5.41,45.45,486
+P8,均衡长尾型,Balanced Long-Tail,基础性预算,Baseline Maintenance,5.0,10.0,2250.11,5.0,1058.35,2.35,30.61,270
