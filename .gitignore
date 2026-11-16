@@ -1,0 +1,30 @@
+# Python & virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw proprietary input files (MUST NOT be pushed to public GitHub)
+*.xlsx
+*.docx
+raw_data/
+
+# Generated large/local outputs (auto-bootstrapped in <3s by src/bootstrap.py on fresh clones)
+outputs/
+*.csv.gz
+*.log
+data/demo/*.csv
+data/artifacts/sku_classified.csv
+data/artifacts/daily_ad_scores.csv
+data/artifacts/daily_anomalies.csv
+data/artifacts/budget_allocation_baseline.csv
+data/artifacts/sku_drilldown_history.csv
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
